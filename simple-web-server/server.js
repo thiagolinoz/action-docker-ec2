@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 app.get('/info', (req, res) => {
   res.json({
     name: 'Simple Web Server',
-    version: '1.0.0',
+    version: '1.1.0',
     uptime: process.uptime()
   });
 });
